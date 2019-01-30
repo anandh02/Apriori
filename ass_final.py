@@ -25,11 +25,16 @@ def checker(transactions , unique_item):
             if item.issubset(transacs):
                 if item in builder:
                     builder[item] += normalized_value
-                    if(builder[item] > 10):
-                        support_data[item] = builder[item] / len(transactions)
-                        if item not in accepted_list :
-                            accepted_list.append(item)
+                    # if(builder[item] > 10):
+                    #     support_data[item] = builder[item] / len(transactions)
+                    #     if item not in accepted_list :
+                    #         accepted_list.append(item)
                 else: builder[item] = normalized_value
+
+    for key,value in builder.items() :
+        if value >= 10 :
+            support_data[key] = builder[key]/len(transactions)
+            accepted_list.append(item)
     return  support_data,accepted_list
 def new_pairs_list(accepted_list,k):
     accepted = []
