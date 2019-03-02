@@ -1,0 +1,44 @@
+For 100 itemset with confidence : 0.8 and support 0.1
+
+Number of frequent 1_itemsets: 10 
+Number of frequent 2_itemsets: 0 
+Number of association rules: 0
+
+Start time : 2019-02-23 14:43:43.110125
+End time : 2019-02-23 14:43:43.116060
+Execution time : 0:00:00.007810 = 0.007 milli secs
+
+*************************************************************************
+For 1000 itemset with confidence : 0.8 and support 0.01
+Number of frequent 1_itemsets: 334 
+Number of frequent 2_itemsets: 174 
+Number of frequent 3_itemsets: 0 
+Number of association rules: 0
+
+Start time : 2019-02-23 14:48:37.442449
+End time : 2019-02-23 14:48:37.511770
+Execution time : 0:00:00.075028 = 0.07 milli secs
+
+*************************************************************************
+For 10,000 itemset with confidence : 0.8 and support 0.001
+
+Number of frequent 1_itemsets: 472 
+Number of frequent 2_itemsets: 24085 
+Number of frequent 3_itemsets: 8049 
+Number of frequent 4_itemsets: 3786 
+Number of frequent 5_itemsets: 2329 
+Number of frequent 6_itemsets: 1115 
+Number of frequent 7_itemsets: 407 
+Number of frequent 8_itemsets: 111 
+Number of frequent 9_itemsets: 21 
+Number of frequent 10_itemsets: 2 
+Number of frequent 11_itemsets: 0 
+Number of association rules: 161856	
+
+Start time : 2019-02-23 11:58:46.165126
+End time : 2019-02-23 12:15:49.345083
+Execution time : 0:00:17:3.179957 =  17 mins
+
+
+
+
